@@ -19,7 +19,7 @@ body {
 /* Header */
 header {
     position: fixed;
-    background-color: rgba(133, 133, 133, 0.3);
+    background-color: rgba(199, 195, 195, 0.3);
     width: 100%;
     /*Layered on top of every other element*/
     z-index: 99;
@@ -38,13 +38,34 @@ h1 {
     font-weight: bold;
     text-transform: capitalize;
     color: rgb(31, 6, 6);
-    
+
 }
 
 #menu {
     display: flex;
+    flex-direction: column;
+
     margin: 0;
     padding: 0;
     list-style: none;
-    gap: 50px;
+    gap: 20px;
+    letter-spacing: 2px;
+}
+
+.active {
+    text-decoration: underline;
+
+}
+
+/* Dropdown toggle */
+nav {
+    position: absolute;
+    /* Takes element outside normal flow */
+    background-color: rgba(199, 195, 195, 0.3);
+    width: 100%;
+    left: 0;
+    padding: 0 10px;
+    display: none;
+
+
 }
