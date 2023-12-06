@@ -1,6 +1,40 @@
+/*Importing styles*/
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Dhurjati&display=swap');
+
+
 /* override default browser styles and add general styles */
+
 * {
-padding:0;
-margin:0;
-box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: "Andika" sans-serif;
+    color: #8f8c8c;
+}
+
+/* Header */
+header {
+    position: fixed;
+    background-color: rgba(133, 133, 133, 0.3);
+    width: 100%;
+    /*Layered on top of every other element*/
+    z-index: 99;
+
+}
+
+h1 {
+    font-family: "Dhurjati";
+    font-size:20px;
+}
+
+#menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 50px;
 }
