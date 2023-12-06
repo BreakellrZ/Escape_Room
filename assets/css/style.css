@@ -23,12 +23,22 @@ header {
     width: 100%;
     /*Layered on top of every other element*/
     z-index: 99;
+    padding: 0 10px;
 
+}
+
+a {
+    text-decoration: none;
+    color: #8f8c8c;
 }
 
 h1 {
     font-family: "Dhurjati";
-    font-size:20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(31, 6, 6);
+    
 }
 
 #menu {
