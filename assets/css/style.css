@@ -130,3 +130,46 @@ main {
         display: none;
     }
 }
+
+/* Media Query 1024px and up */
+@media screen and (min-width: 1024px) {
+    /* Header */
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    #menu {
+        gap: 200px;
+    }
+
+    #hero {
+        height: 1024px;
+        ;
+    }
+}
+    /* Media Query 1440px and up */
+    @media screen and (min-width: 1440px) {
+        /* Header */
+
+        h1 {
+            font-size: 40px;
+        }
+
+        a {
+            font-size: 22px;
+        }
+
+        #menu {
+            gap: 300px;
+        }
+
+        #hero {
+            height: 1440px;
+            
+        }
+    }
