@@ -95,7 +95,9 @@ nav {
 
 main {
     flex: 1 0 auto;
-    
+    height: 2000px;
+    background-color: #9a6c4b;
+
 
 }
 
@@ -107,7 +109,22 @@ main {
 }
 
 footer {
-    background-color: blue;
+
+
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    z-index: 98;
+    padding: 5px 10px;
+    justify-content: space-evenly;
+    bottom: 0;
+
+}
+
+span {
+    font-size: large;
+    color: white;
 }
 
 
