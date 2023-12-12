@@ -135,7 +135,8 @@ h3 {
     padding-top: 15px;
     padding-bottom: 5px;
     font-size: 23px;
-    margin: 10px 20px;
+    margin: 10px 20px ;
+    
 }
 
 h4 {
@@ -200,6 +201,10 @@ span {
 
     }
 
+    h1 {
+        font-size:30px;
+    }
+
     .dropdown-label {
         display: none;
     }
@@ -227,7 +232,7 @@ span {
     /* Header */
 
     h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     a {
@@ -259,7 +264,7 @@ span {
     /* Header */
 
     h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     a {
