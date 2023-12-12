@@ -95,13 +95,15 @@ nav {
 
 main {
     flex: 1 0 auto;
-    height: 2000px;
+    height: 100%;
     background-color: #9a6c4b;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
 
 
 }
-
-
 
 #one_zero_one {
     text-align: center;
@@ -111,6 +113,39 @@ main {
 
 }
 
+.escape_info {
+    width: 100%;
+
+
+}
+
+
+.p_info {
+    padding-bottom: 50px;
+    color: rgb(187, 179, 179);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+
+}
+
+#video {
+    padding-bottom: 50px;
+}
 
 /* Hero image */
 #hero {
@@ -174,6 +209,11 @@ span {
 
     .media {
         font-size: 27px;
+    }
+
+    #youtube {
+        height:300px;
+        width:500px;
     }
 }
 
@@ -273,6 +313,12 @@ span {
 
     .media {
         font-size: 80px;
+    }
+
+    #youtube{
+        height: 600px;
+        width:1000px;
+
     }
 
 
