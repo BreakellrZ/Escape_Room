@@ -172,6 +172,7 @@ div.rooms {
     align-items: center;
     border: solid 2px white;
     border-radius: 4pc;
+    margin: 20px;
 }
 
 img#train {
@@ -179,8 +180,30 @@ img#train {
     margin: 20px 20px;
 }
 
+ul.location_name {
+    list-style: none;
+    color: rgb(0, 0, 0);
+    padding-bottom: 25px;
+}
 
+img#pub {
+    height: 25vh;
+    margin: 20px 20px;
+}
 
+img#vault {
+    height: 23vh;
+    margin: 20px 20px;
+   
+}
+
+img#rod{
+    height:25vh;
+    margin: 20px 20px;
+}
+#lowercase {
+    text-transform: lowercase;
+}
 /* Footer */
 footer {
 
