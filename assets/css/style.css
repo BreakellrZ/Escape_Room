@@ -165,19 +165,21 @@ h4 {
     background: url("../images/rooms.png") no-repeat center center/cover;
 }
 
-div#rooms {
-
+div.rooms {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 4pc;
 }
 
 img#train {
-    height: 100px;
-    margin: 50px 20px;
+    height: 25vh;
+    margin: 20px 20px;
 }
+
+
 
 /* Footer */
 footer {
