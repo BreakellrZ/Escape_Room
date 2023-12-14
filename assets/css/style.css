@@ -116,7 +116,6 @@ main {
 .escape_info {
     width: 100%;
 
-
 }
 
 
@@ -184,12 +183,15 @@ h4 {
 
 #video {
     padding-bottom: 50px;
+    background: url("../images/background.png") no-repeat center center/cover;
 
 }
 
 iframe#youtube {
     margin: 20px;
 }
+
+
 
 /* Hero images */
 #hero {
@@ -302,6 +304,15 @@ span {
         font-size: 30px;
     }
 
+    h3 {
+        font-size: 30px;
+    }
+
+
+    p {
+        font-size: 21px;
+    }
+
     .dropdown-label {
         display: none;
     }
@@ -352,12 +363,12 @@ span {
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
 
     p {
-        font-size: 25px;
+        font-size: 27px;
     }
 
     a {
@@ -424,11 +435,31 @@ span {
     /* Header */
 
     h1 {
-        font-size: 80px;
+        font-size: 130px;
+    }
+
+    h2#one_zero_one {
+        font-size: 125px;
+    }
+
+    h3 {
+        font-size: 110px;
+    }
+
+    p {
+        font-size: 70px;
+    }
+
+    li {
+        font-size: 100px;
     }
 
     a {
-        font-size: 44px;
+        font-size: 80px;
+    }
+
+    .info {
+        margin:50px;
     }
 
     #menu {
