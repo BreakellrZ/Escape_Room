@@ -326,7 +326,7 @@ span {
     #basics_info,
     #tips_con {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
 
     }
@@ -338,7 +338,7 @@ span {
     }
 
     #tips_con>div {
-        text-align: end;
+        text-align: center;
         align-self: flex-end;
     }
 }
