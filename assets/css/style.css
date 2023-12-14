@@ -339,7 +339,7 @@ span {
 
     #tips_con>div {
         text-align: center;
-        align-self: flex-end;
+
     }
 }
 
@@ -349,6 +349,15 @@ span {
 
     h1 {
         font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+
+    p {
+        font-size: 25px;
     }
 
     a {
@@ -374,6 +383,7 @@ span {
         font-size: 35px;
     }
 }
+
 
 /* Media Query 1440px and up */
 @media screen and (min-width: 1440px) {
