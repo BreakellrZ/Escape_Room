@@ -21,9 +21,30 @@
 
 ### Strategy plane
 
+The strategy was simple here is some of my thoughts and questions to be answered around the strategy --
+
+- Make a functional static website that would showcase Ireland's best Escape Rooms.
+- Is the content culturally appropriate ? The website is for any age, any race, any gender.
+- Is the content relevant ? I wanted to make sure the content was relevant to escape rooms.
+- I asked my self why would a user want this? The answer was for people interested in Escape Rooms looking for more information on Escape Rooms and to find out the best Escape rooms in Ireland.
+- What are we making? Info page on Irelands best Escape Rooms.
+-
+
 ### Scope plane
 
+What's on and off the table? What features and content will be used ?
+
+- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature)
+- background Image with a transparent Header and footer so it blends in
+- Information on Escape rooms in the Home page
+- Footer with Social media links
+- YouTube video on Escape Rooms 101
+- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page
+- F.A.Q section with a form feature to submit questions
+
 ### Structure plane
+
+Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll down to see main content easy to see layered content displayed in flexbox in columns on each page same layout and structure. It is consistent, predictable, learnable, and visible.
 
 ### Skeleton plane
 
@@ -39,4 +60,21 @@
 
 ## Deployment
 
+I deployed my website early as this is recommended. The steps to deploying a website on GitHub pages are:
+
+1. Open the repository and go to the Settings tab.
+1. Navigate to the Pages tab in the left menu.
+1. Choose Deploy from a branch and select the according branch, main.
+1. Click save. Click code The link to the deployed website can be found on the right hand side under 'Deployments' and then under 'active deployments'
+   The link to my live site is:
+
 ## Credit
+
+Gencraft for background images
+Love running for nav bar and burger dropdown
+pexels for images
+font awesome for lock icon
+YouTube BGNlab for video
+Ealu escape rooms
+inside escape rooms
+Great Escape rooms
