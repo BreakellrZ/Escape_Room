@@ -12,7 +12,7 @@
 
 body {
     display: flex;
-    font-family: "Andika" sans-serif;
+    font-family: "Andika", sans-serif;
     color: #8f8c8c;
 }
 
@@ -156,6 +156,10 @@ h4 {
 
 }
 
+hr {
+    width: 100%;
+}
+
 #basics {
     background-color: black;
     margin: 10px;
@@ -226,7 +230,8 @@ div.rooms {
 ul.location_name {
     list-style: none;
     color: #771c75;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
+    margin: 10px;
 }
 
 img#train {
@@ -317,6 +322,27 @@ span {
         display: none;
     }
 
+    img#train {
+        height: 40vh;
+        margin: 20px 20px;
+    }
+
+    img#pub {
+        height: 40vh;
+        margin: 20px 20px;
+    }
+
+    img#vault {
+        height: 40vh;
+        margin: 20px 20px;
+
+    }
+
+    img#rod {
+        height: 40vh;
+        margin: 20px 20px;
+    }
+
     #hero {
         height: 836px;
     }
@@ -359,20 +385,20 @@ span {
     /* Header */
 
     h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h3 {
-        font-size: 35px;
+        font-size: 75px;
     }
 
 
     p {
-        font-size: 27px;
+        font-size: 30px;
     }
 
     a {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #menu {
@@ -383,6 +409,27 @@ span {
     #hero {
         height: 1114px;
         ;
+    }
+
+    img#train {
+        height: 40vh;
+        margin: 20px 20px;
+    }
+
+    img#pub {
+        height: 40vh;
+        margin: 20px 20px;
+    }
+
+    img#vault {
+        height: 40vh;
+        margin: 20px 20px;
+
+    }
+
+    img#rod {
+        height: 40vh;
+        margin: 20px 20px;
     }
 
     /* Footer */
@@ -405,7 +452,7 @@ span {
     }
 
     a {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     #menu {
@@ -435,7 +482,7 @@ span {
     /* Header */
 
     h1 {
-        font-size: 130px;
+        font-size: 90px;
     }
 
     h2#one_zero_one {
@@ -443,15 +490,15 @@ span {
     }
 
     h3 {
-        font-size: 110px;
+        font-size: 100px;
     }
 
     p {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     li {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     a {
@@ -459,7 +506,7 @@ span {
     }
 
     .info {
-        margin:50px;
+        margin: 50px;
     }
 
     #menu {
@@ -470,6 +517,27 @@ span {
     #hero {
         height: 100vh;
 
+    }
+
+    img#train {
+        height: 60vh;
+        margin: 20px 20px;
+    }
+
+    img#pub {
+        height: 60vh;
+        margin: 20px 20px;
+    }
+
+    img#vault {
+        height: 60vh;
+        margin: 20px 20px;
+
+    }
+
+    img#rod {
+        height: 60vh;
+        margin: 20px 20px;
     }
 
     /* Footer */
