@@ -45,7 +45,7 @@
       <h1 id="title">Irelands Best Escape Rooms</h1>
       <input type="checkbox" id="dropdown" name="dropdown" />
       <label for="dropdown" class="dropdown-label"
-        ><i class="fa-solid fa-unlock fa-bounce" style="color: #000000"></i>
+        ><i class="fa-solid fa-unlock fa-bounce" style="color: #ffffff"></i>
       </label>
 
       <nav>
@@ -58,7 +58,7 @@
           </li>
           <li>
             <a
-              href="faq.html"
+              href="contact.html"
               aria-label="link to the contact page"
               class="active"
             >
@@ -70,7 +70,50 @@
     </header>
 
     <main>
-      <section id="hero"></section>
+      <section id="hero">
+        <fieldset>
+          <form
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+            id="form"
+          >
+            <input
+              type="text"
+              name="first_name"
+              placeholder="firstname"
+              required
+              id="fname"
+              class="questions"
+            />
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              nmame="second_name"
+              placeholder="lastname"
+              required
+              id="lname"
+              class="questions"
+            />
+            <label for="lname">Last Name</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+              id="email"
+              class="questions"
+            />
+            <label for="email">E-mail</label>
+            <input
+              type="submit"
+              name="submit"
+              required
+              id="submit"
+              class="questions"
+            />
+          </form>
+        </fieldset>
+      </section>
 
       <!-- Footer -->
 
