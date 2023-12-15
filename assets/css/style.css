@@ -275,6 +275,11 @@ section#rooms_description {
 
 /* Contact form */
 
+fieldset {
+    border: double;
+    border-radius: 2pc;
+}
+
 div#form {
     height: 100vh;
     display: flex;
