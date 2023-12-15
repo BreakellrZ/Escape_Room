@@ -211,6 +211,11 @@ iframe#youtube {
 
 }
 
+#contact_hero {
+    background: url("../images/contact.webp") no-repeat center center/cover;
+    height: 100vh;
+}
+
 /*Rooms*/
 div.rooms {
     display: flex;
@@ -233,6 +238,10 @@ ul.location_name {
     color: #a825a9;
     padding-bottom: 10px;
     margin: 10px;
+}
+
+li {
+    color: #a825a9;
 }
 
 img#train {
@@ -262,6 +271,32 @@ img#rod {
 
 section#rooms_description {
     padding-bottom: 50px;
+}
+
+/* Contact form */
+
+div#form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form#form {
+    margin: 40px;
+}
+
+label.label {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.questions {
+    display: flex;
+    align-content: center;
+    font-size: 12px;
+    padding:5px;
 }
 
 /* Footer */
@@ -346,6 +381,18 @@ span {
         background-color: black;
         margin: 40px;
         border-radius: 3pc;
+    }
+
+    div.rooms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        border-radius: 3pc;
+        margin: 20px;
+        background-color: #000000;
+        margin: 60px;
     }
 
     img#train {
@@ -434,8 +481,13 @@ span {
     /* Main content */
     #hero {
         height: 1114px;
-        ;
+
     }
+
+    div.rooms {
+        margin: 100px;
+    }
+
 
     img#train {
         height: 40vh;
@@ -490,7 +542,7 @@ span {
     /* Main content */
 
     #hero {
-        height: 1286px;
+        height: 100vh;
 
     }
 
@@ -502,6 +554,8 @@ span {
     p {
         font-size: 20px;
     }
+
+
 
     /* Footer */
 
@@ -554,6 +608,10 @@ span {
     #hero {
         height: 100vh;
 
+    }
+
+    div.rooms {
+        margin: 130px;
     }
 
     img#train {

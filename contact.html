@@ -70,31 +70,37 @@
     </header>
 
     <main>
-      <section id="hero">
+       
+      <section id="contact_hero">
+        <div id="form">
         <fieldset>
           <form
             method="POST"
             action="https://formdump.codeinstitute.net"
             id="form"
           >
+
+        <label for="fname" class="label">First Name</label>
             <input
               type="text"
               name="first_name"
-              placeholder="firstname"
+              placeholder="Firstname"
               required
               id="fname"
               class="questions"
             />
-            <label for="fname">First Name</label>
+            
+        <label for="lname" class="label">Last Name</label>
             <input
               type="text"
               nmame="second_name"
-              placeholder="lastname"
+              placeholder="Lastname"
               required
               id="lname"
               class="questions"
             />
-            <label for="lname">Last Name</label>
+            
+        <label for="email" class="label">E-mail</label>
             <input
               type="email"
               name="email"
@@ -103,7 +109,7 @@
               id="email"
               class="questions"
             />
-            <label for="email">E-mail</label>
+            
             <input
               type="submit"
               name="submit"
@@ -113,6 +119,7 @@
             />
           </form>
         </fieldset>
+    </div>
       </section>
 
       <!-- Footer -->
