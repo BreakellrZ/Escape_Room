@@ -207,7 +207,7 @@ iframe#youtube {
 #rooms_hero {
     width: 100%;
     height: 100vh;
-    background: url("../images/hero2.webp") no-repeat center center/cover;
+    background: url("../images/hero3.png") no-repeat center center/cover;
 }
 
 /*Rooms*/
@@ -310,12 +310,12 @@ span {
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
     p {
-        font-size: 21px;
+        font-size: 17px;
     }
 
     .dropdown-label {
@@ -389,12 +389,12 @@ span {
     }
 
     h3 {
-        font-size: 75px;
+        font-size: 25px;
     }
 
 
     p {
-        font-size: 30px;
+        font-size: 15px;
     }
 
     a {
@@ -451,6 +451,8 @@ span {
         font-size: 45px;
     }
 
+
+
     a {
         font-size: 25px;
     }
@@ -464,6 +466,15 @@ span {
     #hero {
         height: 1286px;
 
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+
+    p {
+        font-size: 20px;
     }
 
     /* Footer */
@@ -486,19 +497,19 @@ span {
     }
 
     h2#one_zero_one {
-        font-size: 125px;
-    }
-
-    h3 {
         font-size: 100px;
     }
 
+    h3 {
+        font-size: 70px;
+    }
+
     p {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     li {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     a {
@@ -540,6 +551,13 @@ span {
         margin: 20px 20px;
     }
 
+    iframe#youtube {
+        margin: 20px;
+        width: 50%;
+        height:900px;
+
+    }
+
     /* Footer */
 
     span {
@@ -550,11 +568,7 @@ span {
         font-size: 80px;
     }
 
-    #youtube {
-        height: 600px;
-        width: 1000px;
 
-    }
 
 
 }
