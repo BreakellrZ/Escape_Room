@@ -70,56 +70,60 @@
     </header>
 
     <main>
-       
       <section id="contact_hero">
         <div id="form">
-        <fieldset>
-          <form
-            method="POST"
-            action="https://formdump.codeinstitute.net"
-            id="form"
-          >
+          <fieldset>
+            <legend id="title">Questions Form</legend>
+            <form
+              method="POST"
+              action="https://formdump.codeinstitute.net"
+              id="form"
+            >
+              <label for="fname" class="label">First Name</label>
+              <input
+                type="text"
+                name="first_name"
+                placeholder="Colin"
+                required
+                id="fname"
+                class="questions"
+              />
 
-        <label for="fname" class="label">First Name</label>
-            <input
-              type="text"
-              name="first_name"
-              placeholder="Firstname"
-              required
-              id="fname"
-              class="questions"
-            />
-            
-        <label for="lname" class="label">Last Name</label>
-            <input
-              type="text"
-              nmame="second_name"
-              placeholder="Lastname"
-              required
-              id="lname"
-              class="questions"
-            />
-            
-        <label for="email" class="label">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-              id="email"
-              class="questions"
-            />
-            
-            <input
-              type="submit"
-              name="submit"
-              required
-              id="submit"
-              class="questions"
-            />
-          </form>
-        </fieldset>
-    </div>
+              <label for="lname" class="label">Last Name</label>
+              <input
+                type="text"
+                nmame="second_name"
+                placeholder="Galvin"
+                required
+                id="lname"
+                class="questions"
+              />
+
+              <label for="email" class="label">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="colin.galvin@gmail.com"
+                required
+                id="email"
+                class="questions"
+              />
+
+              <label for="text_area" class="label">Questions form</label>
+              <textarea id="text_area" class="questions" required
+>Type your Questions here...</textarea
+              >
+
+              <input
+                type="submit"
+                name="submit"
+                required
+                id="submit"
+                class="questions"
+              />
+            </form>
+          </fieldset>
+        </div>
       </section>
 
       <!-- Footer -->
