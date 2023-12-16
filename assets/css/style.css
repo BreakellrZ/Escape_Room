@@ -278,7 +278,7 @@ section#rooms_description {
 fieldset {
     border: double;
     border-radius: 2pc;
-    background-color:rgba(0, 0, 0, 0.53);
+    background-color: rgba(0, 0, 0, 0.53);
 }
 
 div#form {
@@ -289,12 +289,13 @@ div#form {
 }
 
 #form {
-    margin: 40px;
+    margin: 20px;
+    padding-bottom:20px;
 }
 
-#title {
-    color:white;
-    font-size:25px;
+#title_form {
+    color: white;
+    font-size: 25px;
 
 }
 
@@ -302,20 +303,20 @@ label.label {
     display: flex;
     font-size: 20px;
     flex-direction: row;
-    margin-top:15px;
-    color:white;
+    margin-top: 15px;
+    color: white;
 }
 
 .questions {
     display: flex;
     align-content: center;
     font-size: 12px;
-    padding:5px;
+    padding: 5px;
 }
 
 input#submit {
     margin-top: 20px;
-    
+
 }
 
 /* Footer */
@@ -339,11 +340,11 @@ span {
 }
 
 
-
 /* Media Query 768px and up */
-
-/* Header */
 @media screen and (min-width: 768px) {
+
+    /*Header */
+
     nav {
         display: block;
         position: relative;
@@ -356,10 +357,13 @@ span {
         display: flex;
         flex-direction: row;
         gap: 100px;
-
-
     }
 
+    .dropdown-label {
+        display: none;
+    }
+
+    /*Main Content*/
     h1 {
         font-size: 30px;
     }
@@ -371,10 +375,6 @@ span {
 
     p {
         font-size: 17px;
-    }
-
-    .dropdown-label {
-        display: none;
     }
 
     #basics {
@@ -402,6 +402,39 @@ span {
         border-radius: 3pc;
     }
 
+    span {
+        font-size: 27px;
+    }
+
+    .media {
+        font-size: 27px;
+    }
+
+    #youtube {
+        height: 300px;
+        width: 500px;
+    }
+
+    #basics_info,
+    #tips_con {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    #basics_info>div,
+    #tips_con>div {
+        width: 75%;
+
+    }
+
+    #tips_con>div {
+        text-align: center;
+
+    }
+
+    /*Rooms*/
     div.rooms {
         display: flex;
         flex-direction: column;
@@ -439,54 +472,37 @@ span {
         height: 836px;
     }
 
-    span {
-        font-size: 27px;
+    /*Form page*/
+    fieldset {
+        margin-bottom: 120px;
     }
 
-    .media {
-        font-size: 27px;
+    #form {
+        margin: 50px;
     }
 
-    #youtube {
-        height: 300px;
-        width: 500px;
-    }
-
-    #basics_info,
-    #tips_con {
+    label.label {
         display: flex;
+        font-size: 20px;
         flex-direction: row;
-        width: 100%;
-
+        margin-top: 15px;
+        color: white;
     }
 
-    #basics_info>div,
-    #tips_con>div {
-        width: 75%;
-
-    }
-
-    #tips_con>div {
-        text-align: center;
-
+    .questions {
+        display: flex;
+        align-content: center;
+        font-size: 20px;
+        padding: 5px;
     }
 }
 
 /* Media Query 1024px and up */
 @media screen and (min-width: 1024px) {
-    /* Header */
 
+    /* Header */
     h1 {
         font-size: 40px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-
-    p {
-        font-size: 15px;
     }
 
     a {
@@ -498,11 +514,20 @@ span {
     }
 
     /* Main content */
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
     #hero {
         height: 1114px;
 
     }
 
+    /*Rooms*/
     div.rooms {
         margin: 100px;
     }
@@ -527,6 +552,37 @@ span {
     img#rod {
         height: 40vh;
         margin: 20px 20px;
+    }
+
+    /*Form page*/
+    fieldset {
+        margin-bottom: 120px;
+        margin-top: 60px;
+    }
+
+    #form {
+        margin: 50px;
+    }
+
+    #title_form {
+        color: white;
+        font-size: 35px;
+
+    }
+
+    label.label {
+        display: flex;
+        font-size: 23px;
+        flex-direction: row;
+        margin-top: 15px;
+        color: white;
+    }
+
+    .questions {
+        display: flex;
+        align-content: center;
+        font-size: 23px;
+        padding: 5px;
     }
 
     /* Footer */
@@ -659,6 +715,27 @@ span {
         width: 50%;
         height: 900px;
 
+    }
+
+    /*Contact form */
+
+    #title_form {
+        font-size: 50px;
+    }
+
+    label.label {
+        display: flex;
+        font-size: 45px;
+        flex-direction: row;
+        margin-top: 15px;
+        color: white;
+    }
+
+    .questions {
+        display: flex;
+        align-content: center;
+        font-size: 45px;
+        padding: 5px;
     }
 
     /* Footer */
