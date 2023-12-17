@@ -46,6 +46,10 @@ h1 {
 
 }
 
+#menu a:hover {
+    background-color: rgb(102, 102, 102);
+}
+
 #menu {
     display: flex;
     flex-direction: column;
@@ -61,7 +65,7 @@ h1 {
 
 }
 
-/* Dropdown toggle */
+/* Dropdown toggle helped with Love running project */
 nav {
     /* Takes element outside normal flow */
     position: absolute;
@@ -214,6 +218,7 @@ iframe#youtube {
 #contact_hero {
     background: url("../images/contact.webp") no-repeat center center/cover;
     height: 100vh;
+
 }
 
 /*Rooms*/
@@ -274,49 +279,39 @@ section#rooms_description {
 }
 
 /* Contact form */
-
-fieldset {
-    border: double;
-    border-radius: 2pc;
-    background-color: rgba(0, 0, 0, 0.53);
-}
-
-div#form {
+#form_div {
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 #form {
-    margin: 20px;
-    padding-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
 }
 
 #title_form {
     color: white;
-    font-size: 25px;
-
+    font-size: 15px;
+    text-decoration: underline;
+    font-style: oblique;
 }
 
-label.label {
-    display: flex;
+.label {
     font-size: 20px;
-    flex-direction: row;
-    margin-top: 15px;
-    color: white;
 }
 
 .questions {
-    display: flex;
-    align-content: center;
-    font-size: 12px;
-    padding: 5px;
+    font-size: 15px;
 }
 
-input#submit {
-    margin-top: 20px;
-
+#submit:hover {
+    background-color: green;
 }
 
 /* Footer */
@@ -473,28 +468,7 @@ span {
     }
 
     /*Form page*/
-    fieldset {
-        margin-bottom: 120px;
-    }
 
-    #form {
-        margin: 50px;
-    }
-
-    label.label {
-        display: flex;
-        font-size: 20px;
-        flex-direction: row;
-        margin-top: 15px;
-        color: white;
-    }
-
-    .questions {
-        display: flex;
-        align-content: center;
-        font-size: 20px;
-        padding: 5px;
-    }
 }
 
 /* Media Query 1024px and up */
@@ -555,35 +529,21 @@ span {
     }
 
     /*Form page*/
-    fieldset {
-        margin-bottom: 120px;
-        margin-top: 60px;
-    }
-
-    #form {
-        margin: 50px;
-    }
-
     #title_form {
         color: white;
-        font-size: 35px;
-
+        font-size: 25px;
+        text-decoration: underline;
+        font-style: oblique;
     }
 
-    label.label {
-        display: flex;
-        font-size: 23px;
-        flex-direction: row;
-        margin-top: 15px;
-        color: white;
+    .label {
+        font-size: 30px;
     }
 
     .questions {
-        display: flex;
-        align-content: center;
-        font-size: 23px;
-        padding: 5px;
+        font-size: 25px;
     }
+
 
     /* Footer */
     span {
@@ -628,6 +588,22 @@ span {
 
     p {
         font-size: 20px;
+    }
+
+    /*Contact page */
+    #title_form {
+        color: white;
+        font-size: 35px;
+        text-decoration: underline;
+        font-style: oblique;
+    }
+
+    .label {
+        font-size: 40px;
+    }
+
+    .questions {
+        font-size: 35px;
     }
 
 
@@ -718,25 +694,21 @@ span {
     }
 
     /*Contact form */
-
     #title_form {
-        font-size: 50px;
+        color: white;
+        font-size: 70px;
+        text-decoration: underline;
+        font-style: oblique;
     }
 
-    label.label {
-        display: flex;
-        font-size: 45px;
-        flex-direction: row;
-        margin-top: 15px;
-        color: white;
+    .label {
+        font-size: 70px;
     }
 
     .questions {
-        display: flex;
-        align-content: center;
-        font-size: 45px;
-        padding: 5px;
+        font-size: 55px;
     }
+
 
     /* Footer */
 
