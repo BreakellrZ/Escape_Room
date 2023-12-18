@@ -5,7 +5,7 @@
 - Irelands Escape Rooms is a website for people of all Escape room experience to check out the best escape rooms in Ireland. (Personal preference) This website was created for educational purposes.
 - The website has three pages. The home page has a Gencraft ai cyberpunk image as the background with a header main content and footer. The main content in this page is Escape Rooms 101. The second page is the Rooms page. The rooms page involves the same as the home page but a different Gencraft ai cyberpunk image and the main content has four amazing Escape Rooms to see. The third and final page again has a different Gencraft ai cyberpunk image with a form that users can fill out and submit questions to be answered below the form is a F.A.Q section.
 
-![Hero Image on home screen of website](documentation/heroreadme.png)
+![Hero Image on home screen of website](documentation/mainreadme.png)
 
 ## Goals of this project
 
@@ -32,7 +32,6 @@ The strategy was simple here is some of my thoughts and questions to be answered
 - Is the content relevant ? I wanted to make sure the content was relevant to escape rooms.
 - I asked my self why would a user want this? The answer was for people interested in Escape Rooms looking for more information on Escape Rooms and to find out the best Escape rooms in Ireland.
 - What are we making? Info page on Irelands best Escape Rooms.
--
 
 ### Scope plane
 
@@ -84,7 +83,7 @@ I deployed my website early as this is recommended. The steps to deploying a web
 1. Navigate to the Pages tab in the left menu.
 1. Choose Deploy from a branch and select the according branch, main.
 1. Click save. Click code The link to the deployed website can be found on the right hand side under 'Deployments' and then under 'active deployments'
-   The link to my live site is:
+   The link to my live site is: [Link to live project here](https://breakellrz.github.io/Escape_Room/)
 
 ## Credit
 
