@@ -36,6 +36,10 @@ a {
     color: #f5f1e8;
 }
 
+a:hover {
+    background-color: rgb(58, 36, 119);
+}
+
 h1 {
     font-family: "Dhurjati";
     font-size: 20px;
@@ -44,10 +48,6 @@ h1 {
     color: rgb(255, 255, 255);
 
 
-}
-
-#menu a:hover {
-    background-color: rgb(102, 102, 102);
 }
 
 #menu {
