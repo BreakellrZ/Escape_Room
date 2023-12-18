@@ -55,15 +55,15 @@ Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll 
 To visualise the website I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just everything wrapped in columns if need be for the smaller screens.
 
 
-**Home page Example.**
+1. **Home page Example.**
 ![Balsamiq Home page example](documentation/home.png)
 
 
-**Rooms page Example.**
+1. **Rooms page Example.**
 ![Balsamiq Rooms page example](documentation/rooms.png)
 
 
-**Contact page Example.**
+1. **Contact page Example.**
 ![Balsamiq Contact page example](documentation/contact.png)
 
 ### Surface plane
