@@ -1,5 +1,7 @@
 # Irelands Best Escape Rooms
+
 [Link to live project here](https://breakellrz.github.io/Escape_Room/)
+
 - Irelands Escape Rooms is a website for people of all Escape room experience to check out the best escape rooms in Ireland. (Personal preference) This website was created for educational purposes.
 - The website has three pages. The home page has a Gencraft ai cyberpunk image as the background with a header main content and footer. The main content in this page is Escape Rooms 101. The second page is the Rooms page. The rooms page involves the same as the home page but a different Gencraft ai cyberpunk image and the main content has four amazing Escape Rooms to see. The third and final page again has a different Gencraft ai cyberpunk image with a form that users can fill out and submit questions to be answered below the form is a F.A.Q section.
 
@@ -50,17 +52,16 @@ Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll 
 
 To visualise the website I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just everything wrapped in columns if need be for the smaller screens.
 
-Home page Example.
+**Home page Example.**
 ![Balsamiq Home page example](documentation/home.png)
 
-Rooms page Example.
-![Balsamiq Rooms page example](documentation/room.png)
+**Rooms page Example.**
+![Balsamiq Rooms page example](documentation/rooms.png)
 
-Contact page Example.
-![Balsamiq Contact page ecample](documentation/contact.png)
+**Contact page Example.**
+![Balsamiq Contact page example](documentation/contact.png)
 
 ### Surface plane
-
 
 ## Future Features
 
