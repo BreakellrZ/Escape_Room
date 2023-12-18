@@ -38,9 +38,9 @@ The strategy was simple here is some of my thoughts and questions to be answered
 What's on and off the table? What features and content will be used ?
 
 - Normal Navigation Bar for users to click between the three pages(Home, Rooms, Contact) [Navigation bar image](documentation/navbar.png)
-- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature)[Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger.png)
+- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature) [Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger.png)
 - background Image with a transparent Header and normal sticky footer - both fixed [Main background image with transparent header and normal footer](documentation/heroreadme.png)
-- Information on Escape rooms in the Home page
+- Information on Escape rooms on the Home page [Home page info section](documentation/info101.png)
 - Footer with Social media links [footer with social media links](documentation/footer.png)
 - YouTube video on Escape Rooms 101 [YouTube video](documentation/youtubevideo.png)
 - Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesandrooms.png)
@@ -64,8 +64,15 @@ To visualise the website I used Wireframes for my ideas using Balsamiq. I create
    ![Balsamiq Contact page example](documentation/contact.png)
 
 ### Surface plane
+On the surface plane the color scheme I went for was 'CyberPunk' - The images I got for my main background on all three pages were from gencraft ai images and I used 'CyberPunk' style.
+I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. [Colors that Eye Dropper found](documentation/color.png)
 
 ## Future Features
+I believe I added the necessary Features for this website but I would have liked to have added more and they will be future features some of these examples are as shown: 
+
+1. If I had more time I would have liked to add in a map section with the exact locations of the Escape Rooms that I referred to on the 'Rooms' page.
+2. I would have like to have added more Escape Rooms and plan on doing so.
+3. I will add a F.A.Q section of the most common Questions asked.
 
 ## Technologies used
 
