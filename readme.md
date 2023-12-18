@@ -37,13 +37,14 @@ The strategy was simple here is some of my thoughts and questions to be answered
 
 What's on and off the table? What features and content will be used ?
 
-- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature)
-- background Image with a transparent Header and footer so it blends in
+- Normal Navigation Bar for users to click between the three pages(Home, Rooms, Contact) [Navigation bar image](documentation/navbar.png)
+- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature)[Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger.png)
+- background Image with a transparent Header and normal sticky footer - both fixed [Main background image with transparent header and normal footer](documentation/heroreadme.png)
 - Information on Escape rooms in the Home page
-- Footer with Social media links
-- YouTube video on Escape Rooms 101
-- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page
-- F.A.Q section with a form feature to submit questions
+- Footer with Social media links [footer with social media links](documentation/footer.png)
+- YouTube video on Escape Rooms 101 [YouTube video](documentation/youtubevideo.png)
+- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesandrooms.png)
+- Contact section with a form feature to submit questions [Questions Form](documentation/formreadme.png)
 
 ### Structure plane
 
@@ -53,17 +54,14 @@ Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll 
 
 To visualise the website I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just everything wrapped in columns if need be for the smaller screens.
 
-
 1. **Home page Example.**
-![Balsamiq Home page example](documentation/home.png)
-
+   ![Balsamiq Home page example](documentation/home.png)
 
 1. **Rooms page Example.**
-![Balsamiq Rooms page example](documentation/rooms.png)
-
+   ![Balsamiq Rooms page example](documentation/rooms.png)
 
 1. **Contact page Example.**
-![Balsamiq Contact page example](documentation/contact.png)
+   ![Balsamiq Contact page example](documentation/contact.png)
 
 ### Surface plane
 
