@@ -43,7 +43,7 @@ What's on and off the table? What features and content will be used ?
 - Information on Escape rooms on the Home page [Home page info section](documentation/info101.png)
 - Footer with Social media links [footer with social media links](documentation/footer.png)
 - YouTube video on Escape Rooms 101 [YouTube video](documentation/youtubevideo.png)
-- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesandrooms.png)
+- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesonrooms.png)
 - Contact section with a form feature to submit questions [Questions Form](documentation/formreadme.png)
 
 ### Structure plane
@@ -64,10 +64,12 @@ To visualise the website I used Wireframes for my ideas using Balsamiq. I create
    ![Balsamiq Contact page example](documentation/contact.png)
 
 ### Surface plane
-On the surface plane the color scheme I went for was 'CyberPunk' - The images I got for my main background on all three pages were from gencraft ai images and I used 'CyberPunk' style.
-I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. [Colors that Eye Dropper found](documentation/color.png)
+
+On the surface plane the color scheme I went for was 'CyberPunk' - The images I got for my main background on all three pages were from gencraft ai [Gencraft wesbite](https://gencraft.com/generate)and I used 'CyberPunk' style.
+I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. ![Colors that Eye Dropper found](documentation/color.png)
 
 ## Future Features
+
 I believe I added the necessary Features for this website but I would have liked to have added more and they will be future features some of these examples are as shown: 
 
 1. If I had more time I would have liked to add in a map section with the exact locations of the Escape Rooms that I referred to on the 'Rooms' page.
@@ -76,7 +78,33 @@ I believe I added the necessary Features for this website but I would have liked
 
 ## Technologies used
 
-## Testing
+Technologies used in this website were as follows:
+
+- HTML
+- CSS
+- GIT
+- BALSAMIQ WIREFRAMES
+- CODEANYHWERE
+- GOOGLE DEV TOOLS
+- GENCRAFT 
+- FONTAWESOME
+- IMAGE RESIZER
+- W3C HTML Markup Validator
+- W3C Jigsaw CSS Validator
+
+## Testing and Validation
+
+### Manual testing
+- I tested the live project on Google Chrome, Internet explorer and firefox web browsers.
+- I tested the website on iphone, laptop and monitor screen sizes.
+- I made sure that the form was working properly on all screen sizes and that the user needs to put in all details for the form to be sent.
+- I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
+  
+### Validation
+I used W3C Markup Validation service to make sure my code was perfect. 
+
+I used the Jigsaw CSS Vlaidator to vlidate my CSS code. 
+
 
 ## Challenges/Bug fixes
 
