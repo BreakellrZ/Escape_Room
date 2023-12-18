@@ -56,6 +56,9 @@ Home page Example.
 Rooms page Example.
 ![Balsamiq Rooms page example](documentation/room.png)
 
+Contact page Example.
+![Balsamiq Contact page ecample](documentation/contact.png)
+
 ### Surface plane
 
 ## Future Features
