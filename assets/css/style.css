@@ -335,6 +335,18 @@ span {
     color: white;
 }
 
+ /*For Form Media query max-height 540px*/
+@media (max-height: 540px) {
+    #form{ 
+        height:50%;
+        width:50%;
+        overflow: scroll;
+    }
+
+    #text_area {
+        padding-bottom:30px;
+    }
+} 
 
 /* Media Query 768px and up */
 @media screen and (min-width: 768px) {
