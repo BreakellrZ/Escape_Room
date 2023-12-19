@@ -101,12 +101,19 @@ Technologies used in this website were as follows:
 - I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
   
 ### Validation
-I used W3C Markup Validation service to make sure my code was perfect. 
+I used W3C Markup Validation service to make sure my code was perfect. ![HTML Validator]()
 
-I used the Jigsaw CSS Vlaidator to vlidate my CSS code. 
+I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png)
+
+I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO. ![LIGHTHOUSE TESTING]()
 
 
 ## Challenges/Bug fixes
+I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included: **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**  **' Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** & **V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**
+ I fixed these issues by:
+ 
+1. removing 'required' in my input type="submit" as required does not make sense to be used in a submit type. 
+2. 
 
 ## Deployment
 
@@ -128,3 +135,4 @@ YouTube BGNlab for video
 Ealu escape rooms
 inside escape rooms
 Great Escape rooms
+Mentor Brian O'Hare
