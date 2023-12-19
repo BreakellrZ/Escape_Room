@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <!--Head-->
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Colin Breakell" />
-    <meta name="description" content="Irelands escape rooms" />
-    <meta
-      name="keywords"
-      content="Escape, Escape Room, Puzzles, challenge room, quest room"
-    >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Colin Breakell">
+    <meta name="description" content="Irelands escape rooms">
+    <meta name="keywords" 
+     content="Escape, Escape Room, Puzzles, challenge room, quest room">
     <title>Irelands Escape Rooms</title>
 
     <!-- link to favicon -->
     <link
       rel="apple-touch-icon-precomposed"
       sizes="144x144"
-      href="assets/favicon/apple-touch-icon-144x144.png"
-    />
+      href="assets/favicon/apple-touch-icon-144x144.png">
+
     <link
       rel="apple-touch-icon-precomposed"
       sizes="152x152"
-      href="assets/favicon/apple-touch-icon-152x152.png"
-    />
+      href="assets/favicon/apple-touch-icon-152x152.png">
+
     <link
       rel="icon"
       type="image/png"
       href="assets/favicon/favicon-32x32.png"
-      sizes="32x32"
-    />
+      sizes="32x32">
+
     <link
       rel="icon"
       type="image/png"
       href="assets/favicon/favicon-16x16.png"
-      sizes="16x16"
-    />
+      sizes="16x16">
 
     <!-- link to CSS file -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <!-- Body -->
   <body>
+
     <!--Header-->
     <header>
       <h1 id="title">Irelands Best Escape Rooms</h1>
 
-      <input type="checkbox" id="dropdown" name="dropdown" />
-      <label for="dropdown" class="dropdown-label"
-        ><i class="fa-solid fa-unlock fa-bounce" style="color: #ffffff"></i>
+    <!-- Navigation Code inspired by LOVE RUNNING-->
+      <input type="checkbox" id="dropdown" name="dropdown">
+      <label for="dropdown" class="dropdown-label">
+        <i class="fa-solid fa-unlock fa-bounce" style="color: #ffffff"></i>
       </label>
 
       <nav>
@@ -57,18 +58,15 @@
             <a
               href="index.html"
               aria-label="Link to the home page"
-              class="active"
-            >
-              Home
-            </a>
+              class="active"> Home </a>
           </li>
           <li>
-            <a href="rooms.html" aria-label="Link to the rooms page"> Rooms </a>
+            <a href="rooms.html"
+             aria-label="Link to the rooms page"> Rooms </a>
           </li>
           <li>
-            <a href="contact.html" aria-label="link to the contact page">
-              Contact
-            </a>
+            <a href="contact.html"
+             aria-label="link to the contact page"> Contact </a>
           </li>
         </ul>
       </nav>
@@ -76,14 +74,21 @@
 
     <!--Main Section-->
     <main>
-      <!--Hero background-->
-      <section id="hero"></section>
 
+      <!--Hero background-->
+      <section id="hero"><h6></h6></section>
+
+      <!--Escape Room Information section-->
       <section class="escape_info">
         <h2 id="one_zero_one">Escape rooms 101</h2>
 
+        <!--Division on all Escape Room information combined-->
         <div class="info">
+
+          <!--Division on just Escape room basics and what is an escape room combined-->
           <div id="basics_info">
+
+            <!--Division on Escape Room Basics-->
             <div id="basics">
               <h3>-Escape Room basics-</h3>
 
@@ -100,6 +105,7 @@
               </p>
             </div>
 
+            <!--Division on what is an escape room-->
             <div id="what_is_er">
               <h3>-So, what exactly is an escape room?-</h3>
 
@@ -115,7 +121,10 @@
             </div>
           </div>
 
+          <!--Division on tips and conclusion-->
           <div id="tips_con">
+
+            <!--Division on tips-->
             <div id="tips">
               <h3>-Essential tips for first timers-</h3>
 
@@ -142,6 +151,7 @@
               </p>
             </div>
 
+            <!--Division on conclusion-->
             <div id="conclusion">
               <h3>-Conclusion-</h3>
 
@@ -168,25 +178,27 @@
             </div>
           </div>
 
-          <hr />
+          <hr>
 
+          <!--YouTube video-->
           <div id="video">
             <iframe
               id="youtube"
               width="200"
               height="200"
               src="https://www.youtube.com/embed/Tqnw7g5iIFQ?si=UVuDMYk3i3ROJlf9"
-              title="YouTube video player"
-            >
+              title="YouTube video player">
             </iframe>
+
           </div>
         </div>
       </section>
-    </main>
 
     <!-- Footer -->
     <footer>
       <span>Find us on:</span>
+
+    <!--Facebook icon-->
       <a
         href="https://www.facebook.com"
         class="media"
@@ -195,6 +207,8 @@
         aria-label="Facebook icon logo"
         ><i class="fa-brands fa-square-facebook"></i
       ></a>
+
+    <!--Instagram icon-->
       <a
         href="https://www.instagram.com"
         target="_blank"
@@ -203,6 +217,8 @@
         aria-label="Instagram icon logo"
         ><i class="fa-brands fa-square-instagram"></i
       ></a>
+
+    <!--X icon-->
       <a
         href="https://www.twitter.com"
         target="_blank"
@@ -211,7 +227,9 @@
         aria-label="X/Twitter icon logo"
         ><i class="fa-brands fa-x-twitter"></i
       ></a>
+
     </footer>
+   </main>
 
     <!--Font Awesome Kit-->
     <script
