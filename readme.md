@@ -130,7 +130,7 @@ I deployed my website early as this is recommended. The steps to deploying a web
    The link to my live site is: [Link to live project here](https://breakellrz.github.io/Escape_Room/)
 
 ## Credit
-
+Mentor Brian O'Hare
 Gencraft for background images
 Love running for nav bar and burger dropdown
 pexels for images
