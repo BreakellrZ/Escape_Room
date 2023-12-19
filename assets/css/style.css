@@ -1,4 +1,4 @@
-/*Importing styles*/
+/* Importing styles */
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Dhurjati&display=swap');
 
 
@@ -22,7 +22,7 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    /*Layered on top of every other element*/
+    /* Layered on top of every other element */
     z-index: 99;
     padding: 0 10px;
     justify-content: space-between;
@@ -221,7 +221,24 @@ iframe#youtube {
 
 }
 
-/*Rooms*/
+/* Rooms */
+#hero_heading {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size:18px;
+    padding:10px;
+}
+
+#look_down {
+    padding-left:12px;
+}
+
 div.rooms {
     display: flex;
     flex-direction: column;
@@ -335,7 +352,7 @@ span {
     color: white;
 }
 
- /*For Form Media query max-height 540px*/
+ /* For Form Media query max-height 540px */
 @media (max-height: 540px) {
     #form{ 
         height:50%;
@@ -351,7 +368,7 @@ span {
 /* Media Query 768px and up */
 @media screen and (min-width: 768px) {
 
-    /*Header */
+    /* Header */
 
     nav {
         display: block;
@@ -371,7 +388,7 @@ span {
         display: none;
     }
 
-    /*Main Content*/
+    /* Main Content */
     h1 {
         font-size: 30px;
     }
@@ -442,7 +459,11 @@ span {
 
     }
 
-    /*Rooms*/
+    /* Rooms */
+    #hero_heading {
+        font-size:30px;
+    }
+
     div.rooms {
         display: flex;
         flex-direction: column;
@@ -514,7 +535,11 @@ span {
 
     }
 
-    /*Rooms*/
+    /* Rooms */
+    #hero_heading {
+        font-size: 40px;
+    }
+    
     div.rooms {
         margin: 100px;
     }
@@ -541,7 +566,7 @@ span {
         margin: 20px 20px;
     }
 
-    /*Form page*/
+    /* Form page */
     #title_form {
         color: white;
         font-size: 25px;
@@ -603,7 +628,7 @@ span {
         font-size: 20px;
     }
 
-    /*Contact page */
+    /* Contact page */
     #title_form {
         color: white;
         font-size: 35px;
@@ -672,6 +697,11 @@ span {
     #hero {
         height: 100vh;
 
+    }
+
+    /* Rooms */
+    #hero_heading {
+        font-size: 40px;
     }
 
     div.rooms {
