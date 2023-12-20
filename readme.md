@@ -182,7 +182,7 @@ I deployed my website early, as this is recommended. The steps to deploying a we
 ## Credit
 I would first like to thank my code institute mentor, Brian O'Hare, for guiding me and providing tips and feedback during this project.
 
-- I would like to credit 'Love Running' provided by Code Institute. Love running provided me with inspiration for both the navigation dropdown menu and the footer on my website.
+- I would like to credit hhe 'Love Running' project provided by Code Institute. Love running provided me with inspiration for both the navigation dropdown menu and the footer on my website.
   
 - I would like to credit [Gencraft](https://gencraft.com/generate) for providing me with AI generated images which I used for my main background images.
 
