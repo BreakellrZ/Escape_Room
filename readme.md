@@ -86,19 +86,19 @@ I decided to then go with the CyberPunk color scheme as it matched my Gencraft a
 ![Home page info section](documentation/info101_feature.png)
 
 - Footer feature included icons of 'Facebook', 'Instagram' & 'X'. All three icons are clickable links which will take you to each social media website. The footer was fixed so it is always showing like the header. The footer has a background color of #771c75; with white social media icons so it stands out. Also included is text with the words 'Find us on:' so it lets users know they can find us on each social media. (This website was created for educational purposes there is no actual social media for this website so the links take the user to just the home pages of the three social medias.) 
-![footer with social media links](documentation/footer.png)
+![footer with social media links](documentation/footer_feature.png)
 
 - I added a YouTube video of 'Escape rooms 101' incase users wanted to watch a video format to gain knowledge on Escape Rooms. The video is Scott Nicholson, game design professor at Wilfrid Laurier University in Brantford, Ontario, for an introductory talk on Escape Rooms! This is at the bottom of the page under a line break and above the footer. 
-![YouTube video](documentation/youtubevideo.png)
+![YouTube video](documentation/youtube_video.png)
 
 - On the rooms page the website has a main background image from Gencraft with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms.
-![Rooms main background image with text](documentation/rooms_hero_feature)
+![Rooms main background image with text](documentation/rooms_hero_feature.png)
 
 - The main feature on the 'Rooms' page is the four horizontal like cards with a header, picture and information of four indivdual escape rooms. The headers shows the name of the escape room, The images show a represetation of each room and the information provides the back story for each room and then the location of the escape room. 
 ![Images and info on the best escape rooms](documentation/images_for_rooms.png) 
 
 - Lastly on the 'Contact' page there is a form for users to fill in there 'Name' and 'e-mail' address and to ask a question to be sent to us. (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft and the form is on top of this image. It blends in very nicely. 
-![Questions Form](documentation/formreadme.png)
+![Questions Form](documentation/form_feature.png)
 
 ## Future Features
 
