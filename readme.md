@@ -2,7 +2,7 @@
 
 [Link to live project here](https://breakellrz.github.io/Escape_Room/)
 
-- Irelands Escape Rooms is a website for people of all Escape room experience to check out the best escape rooms in Ireland. (Personal preference) This website was created for educational purposes.
+- Irelands Escape Rooms is a website for people of all Escape room experience to check out the best escape rooms in Ireland. (Personal preference) **This website was created for educational purposes.**
 - The website has three pages. The home page has a Gencraft ai cyberpunk image as the background with a header main content and footer. The main content in this page is Escape Rooms 101. The second page is the Rooms page. The rooms page involves the same as the home page but a different Gencraft ai cyberpunk image and the main content has four amazing Escape Rooms to see. The third and final page again has a different Gencraft ai cyberpunk image with a form that users can fill out and submit questions to be answered below the form is a F.A.Q section.
 
 ![AMiResponsive picture of the different webpages on different screen sizes ](documentation/am_i_responsive.png)
@@ -37,10 +37,10 @@ The strategy was simple here is some of my thoughts and questions to be answered
 
 What's on and off the table? What features and content will be used ?
 
-- Normal Navigation Bar for users to click between the three pages(Home, Rooms, Contact) [Navigation bar image](documentation/navbar.png)
-- Nav bar -- Burger menu on phone screen sizes (Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature) [Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger.png)
-- background Image with a transparent Header and normal sticky footer - both fixed [Main background image with transparent header and normal footer](documentation/heroreadme.png)
-- Information on Escape rooms on the Home page [Home page info section](documentation/info101.png)
+- Normal Navigation Bar for users to click between the three pages(Home, Rooms, Contact).
+- Nav bar -- Burger menu on phone screen sizes. Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature.
+- background Image with a transparent Header and normal sticky footer - both fixed.
+- Information on Escape rooms on the Home page.
 - Footer with Social media links [footer with social media links](documentation/footer.png)
 - YouTube video on Escape Rooms 101 [YouTube video](documentation/youtubevideo.png)
 - Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesonrooms.png)
@@ -67,6 +67,24 @@ To visualise the website I used Wireframes for my ideas using Balsamiq. I create
 
 On the surface plane the color scheme I went for was 'CyberPunk' - The images I got for my main background on all three pages were from gencraft ai [Gencraft wesbite](https://gencraft.com/generate)and I used 'CyberPunk' style.
 I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. ![Colors that Eye Dropper found](documentation/color_style.png)
+
+## Features
+
+- My Header consisted of a navigation bar for larger screens and a dropdown menu for smaller screens. All screen sizes had a main h1 heading on the top left of the page with the title 'Irelands Best Escape Rooms' so that users knew what the website was. The header was partially transparent and blends in quite nicely with the main hero background image. [Header](documentation/header_feature.png)
+
+- I used a normal Navigation bar on screen sizes larger then 768px. It contains three pages named 'Home' 'Rooms' & 'Contact'. All three of these are links to each respective page. I used 'class="Active"' for each page so that when the user is on each page it will have an underline under the respective page to tell the user what page they are currently on.
+[Navigation bar image](documentation/navbar_feature.png)  
+
+- I used a dropdown menu for screen sizes smaller then 768px. I decided to use a lock instead of the normal burger menu as a lock corresponds more to the Escape Room Theme. The lock bounces to tell users that it is clickable.  [Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger_dropdown_feature.png)
+
+- I used [Gencraft wesbite](https://gencraft.com/generate) for a CyberPunk themed background. I wanted this to stand out and be the first thing users see on the website. [Main background image with transparent header and normal footer](documentation/home_hero_feature.png)
+
+- Content of Escape Rooms 101 - This included four card like type sections with a header and information on each card. This was to give knowledge and insight into Escape Rooms for the user. [Home page info section](documentation/info101_feature.png)
+
+- Footer feature included icons of 'Facebook', 'Instagram' & 'X'. All three icons are clickable links which will take you to each social media website. The footer was fixed so it is always showing like the header. The footer has a background color of #771c75; with white social media icons soit it stands out. Also inluded is text with the words 'Find us on:' so it lets users know they can find us on each social media. (This website was created for educational purposes there is no actual social media for this website so the links take the user to just the home pages of the three social medias.) [footer with social media links](documentation/footer.png)
+
+- 
+
 
 ## Future Features
 
@@ -103,16 +121,16 @@ Technologies used in this website were as follows:
 - I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
   
 ### Validation
-I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found. 
+**I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found.**
 ![HTML Validator](documentation/html_validator_home.png) 
 
 ![HTML Validator for rooms page](documentation/html_validator_rooms.png) 
 
 ![HTML Validator for contact page](documentation/html_validator_contact.png) 
 
-I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png) 
+I* used the Jigsaw CSS Vlaidator to vlidate my CSS code. ** *![CSS Validator](documentation/css_validator.png) 
 
-I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO. 
+**I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO I had hoped for a better performance I changed images from jpg to webp and made them smaller I will be working on making the performance better in a future update.** 
 
 ![LIGHTHOUSE testing for home page](documentation/home_lighthouse.png)
 
