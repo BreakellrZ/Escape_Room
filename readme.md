@@ -5,7 +5,7 @@
 - Irelands Escape Rooms is a website for people of all Escape room experience to check out the best escape rooms in Ireland. (Personal preference) This website was created for educational purposes.
 - The website has three pages. The home page has a Gencraft ai cyberpunk image as the background with a header main content and footer. The main content in this page is Escape Rooms 101. The second page is the Rooms page. The rooms page involves the same as the home page but a different Gencraft ai cyberpunk image and the main content has four amazing Escape Rooms to see. The third and final page again has a different Gencraft ai cyberpunk image with a form that users can fill out and submit questions to be answered below the form is a F.A.Q section.
 
-![Hero Image on home screen of website](documentation/mainreadme.png)
+![AMiResponsive picture of the different webpages on different screen sizes ](documentation/am_i_responsive.png)
 
 ## Goals of this project
 
@@ -55,13 +55,13 @@ Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll 
 To visualise the website I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just everything wrapped in columns if need be for the smaller screens.
 
 1. **Home page Example.**
-   ![Balsamiq Home page example](documentation/home.png)
+   ![Balsamiq Home page example](documentation/home_balsamiq.png)
 
 1. **Rooms page Example.**
-   ![Balsamiq Rooms page example](documentation/rooms.png)
+   ![Balsamiq Rooms page example](documentation/rooms_balsamiq.png)
 
 1. **Contact page Example.**
-   ![Balsamiq Contact page example](documentation/contact.png)
+   ![Balsamiq Contact page example](documentation/contact_balsamiq.png)
 
 ### Surface plane
 
@@ -75,6 +75,7 @@ I believe I added the necessary Features for this website but I would have liked
 1. If I had more time I would have liked to add in a map section with the exact locations of the Escape Rooms that I referred to on the 'Rooms' page.
 2. I would have like to have added more Escape Rooms and plan on doing so.
 3. I will add a F.A.Q section of the most common Questions asked.
+4. I will add an Anchor link to 'Irelands Best Escape Rooms' Main heading.
 
 ## Technologies used
 
@@ -88,6 +89,7 @@ Technologies used in this website were as follows:
 - GOOGLE DEV TOOLS
 - GENCRAFT 
 - FONTAWESOME
+- GOOGLE FONTS
 - IMAGE RESIZER
 - W3C HTML Markup Validator
 - W3C Jigsaw CSS Validator
@@ -101,20 +103,26 @@ Technologies used in this website were as follows:
 - I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
   
 ### Validation
-I used W3C Markup Validation service to make sure my code was perfect. ![HTML Validator]()
+I used W3C Markup Validation service to make sure my code was perfect. ![HTML Validator](documentation/html_validator_home.png) <br> 
 
-I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png)
+![HTML Validator for rooms page](documentation/html_validator_rooms.png) <br>
+
+![HTML Validator for contact page](documentation/html_validator_contact.png) <br>
+
+I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png) <br> 
 
 I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO. ![LIGHTHOUSE TESTING]()
 
 
 ## Challenges/Bug fixes
-I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included: 1. **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**  2. **' Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** & 3. '**V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**'
+I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included: <br> 1.**Trailing slashes** 2. **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**  3. **' Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** & 4. '**V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**' <br>
+
  I fixed these issues by:
- 
-1. Removing 'required' in my input type="submit" as required does not make sense to be used in a submit type. 
-2. ff
-3. ff
+ <br>
+1. I found a thread on slack with the same issue and got an answer I went into 'file' then 'preferences' then 'settings' then I turned off 'Format on save' this fixed the problem.
+2. Removing 'required' in my input type="submit" as required does not make sense to be used in a submit type. This fixed the error.
+3. I added a heading with text which ultimately made my 'Rooms' page look nicer and fixed the warning.
+4. I took ou the 'legend' tag as it was not needed and I put in a H2 tag instead - this fixed the error.
 
 Another Challenge I encountered was the performance area in my Lighthouse testing.[Ligthhouse testing](documentation/lighthouse.png)
 
