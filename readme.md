@@ -66,16 +66,16 @@ To visualise the website I used Wireframes for my ideas using Balsamiq. I create
 ### Surface plane
 
 On the surface plane the color scheme I went for was 'CyberPunk' - The images I got for my main background on all three pages were from gencraft ai [Gencraft wesbite](https://gencraft.com/generate)and I used 'CyberPunk' style.
-I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. ![Colors that Eye Dropper found](documentation/color.png)
+I decided to then go with the CyberPunk color scheme as it matched my Gencraft ai images for the background on the website. These colors consisted of purples pinks white text with black background. I used 'Eye Dropper' Chrome extension to give me an idea of that colors to use . I used it on the background images from Gencraft. I manually then changed it to my exact prefered color. ![Colors that Eye Dropper found](documentation/color_style.png)
 
 ## Future Features
 
 I believe I added the necessary Features for this website but I would have liked to have added more and they will be future features some of these examples are as shown: 
 
-1. If I had more time I would have liked to add in a map section with the exact locations of the Escape Rooms that I referred to on the 'Rooms' page.
-2. I would have like to have added more Escape Rooms and plan on doing so.
-3. I will add a F.A.Q section of the most common Questions asked.
-4. I will add an Anchor link to 'Irelands Best Escape Rooms' Main heading.
+- If I had more time I would have liked to add in a map section with the exact locations of the Escape Rooms that I referred to on the 'Rooms' page.
+- I would have like to have added more Escape Rooms and plan on doing so.
+- I will add a F.A.Q section of the most common Questions asked.
+- I will add an Anchor link to 'Irelands Best Escape Rooms' Main heading.
 
 ## Technologies used
 
@@ -103,34 +103,38 @@ Technologies used in this website were as follows:
 - I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
   
 ### Validation
-I used W3C Markup Validation service to make sure my code was perfect. ![HTML Validator](documentation/html_validator_home.png) <br> 
+I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found. 
+![HTML Validator](documentation/html_validator_home.png) 
 
-![HTML Validator for rooms page](documentation/html_validator_rooms.png) <br>
+![HTML Validator for rooms page](documentation/html_validator_rooms.png) 
 
-![HTML Validator for contact page](documentation/html_validator_contact.png) <br>
+![HTML Validator for contact page](documentation/html_validator_contact.png) 
 
-I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png) <br> 
+I used the Jigsaw CSS Vlaidator to vlidate my CSS code.  ![CSS Validator](documentation/css_validator.png) 
 
-I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO. ![LIGHTHOUSE TESTING]()
+I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO. 
+
+![LIGHTHOUSE testing for home page](documentation/home_lighthouse.png)
+
+![LIGHTHOUSE testing for rooms page](documentation/rooms_lighthouse.png)
+
+![LIGHTHOUSE testing for contact page](documentation/contact_lighthouse.png)
 
 
 ## Challenges/Bug fixes
-I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included:
+I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. **I also had a couple errors and warnings that needed fixing these included:**
 
-1. **'Trailing slashes'** 
-2. **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**   
-3. **'Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** 
-4. **V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**
+1. 'Trailing slashes' 
+2. 'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'  
+3. 'Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.' 
+4. 'V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)'
 
- I fixed these issues by:
- <br>
+ **I fixed these issues by:**
+ 
 1. I found a thread on slack with the same issue and got an answer I went into 'file' then 'preferences' then 'settings' then I turned off 'Format on save' this fixed the problem.
 2. Removing 'required' in my input type="submit" as required does not make sense to be used in a submit type. This fixed the error.
 3. I added a heading with text which ultimately made my 'Rooms' page look nicer and fixed the warning.
 4. I took ou the 'legend' tag as it was not needed and I put in a H2 tag instead - this fixed the error.
-
-Another Challenge I encountered was the performance area in my Lighthouse testing.[Ligthhouse testing](documentation/lighthouse.png)
-
 
 ## Deployment
 
