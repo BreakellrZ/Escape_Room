@@ -71,33 +71,33 @@ I decided to then go with the CyberPunk color scheme as it matched my Gencraft a
 
 ## Features
 
-- My Header consisted of a navigation bar for larger screens and a dropdown menu for smaller screens. All screen sizes had a main h1 heading on the top left of the page with the title 'Irelands Best Escape Rooms' so that users knew what the website was. The header was partially transparent and blends in quite nicely with the main hero background image. ![Header](documentation/header_feature.png)
+- **My Header** consisted of a navigation bar for larger screens and a dropdown menu for smaller screens. All screen sizes had a main h1 heading on the top left of the page with the title 'Irelands Best Escape Rooms' so that users knew what the website was. The header was partially transparent and blends in quite nicely with the main hero background image. ![Header](documentation/header_feature.png)
 
-- I used a normal Navigation bar on screen sizes larger then 768px. It contains three pages named 'Home' 'Rooms' & 'Contact'. All three of these are links to each respective page. I used 'class="Active"' for each page so that when the user is on each page it will have an underline under the respective page to tell the user what page they are currently on.
+- **I used a normal Navigation bar** on screen sizes larger then 768px. It contains three pages named 'Home' 'Rooms' & 'Contact'. All three of these are links to each respective page. I used 'class="Active"' for each page so that when the user is on each page it will have an underline under the respective page to tell the user what page they are currently on.
 ![Navigation bar image](documentation/navbar_feature.png)  
 
-- I used a dropdown menu for screen sizes smaller then 768px. I decided to use a lock instead of the normal burger menu as a lock corresponds more to the Escape Room Theme. The lock bounces to tell users that it is clickable.
+- **I used a dropdown menu** for screen sizes smaller then 768px. I decided to use a lock instead of the normal burger menu as a lock corresponds more to the Escape Room Theme. The lock bounces to tell users that it is clickable.
 ![Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger_dropdown_feature.png)
 
-- I used [Gencraft wesbite](https://gencraft.com/generate) for a CyberPunk themed background. I wanted this to stand out and be the first thing users see on the website. 
+- **I used [Gencraft wesbite](https://gencraft.com/generate) for a CyberPunk themed background.** I wanted this to stand out and be the first thing users see on the website. 
 ![Main background image with transparent header and normal footer](documentation/home_hero_feature.png)
 
-- Content of Escape Rooms 101 - This included four card like sections with a header and information on each card. This was to give knowledge and insight into Escape Rooms for the user. 
+- **Content of Escape Rooms 101** - This included four card like sections with a header and information on each card. This was to give knowledge and insight into Escape Rooms for the user. 
 ![Home page info section](documentation/info101_feature.png)
 
-- Footer feature included icons of 'Facebook', 'Instagram' & 'X'. All three icons are clickable links which will take you to each social media website. The footer was fixed so it is always showing like the header. The footer has a background color of #771c75; with white social media icons so it stands out. Also included is text with the words 'Find us on:' so it lets users know they can find us on each social media. (This website was created for educational purposes there is no actual social media for this website so the links take the user to just the home pages of the three social medias.) 
+- **Footer feature** included icons of 'Facebook', 'Instagram' & 'X'. All three icons are clickable links which will take you to each social media website. The footer was fixed so it is always showing like the header. The footer has a background color of #771c75; with white social media icons so it stands out. Also included is text with the words 'Find us on:' so it lets users know they can find us on each social media. (This website was created for educational purposes there is no actual social media for this website so the links take the user to just the home pages of the three social medias.) 
 ![footer with social media links](documentation/footer_feature.png)
 
-- I added a YouTube video of 'Escape rooms 101' incase users wanted to watch a video format to gain knowledge on Escape Rooms. The video is Scott Nicholson, game design professor at Wilfrid Laurier University in Brantford, Ontario, for an introductory talk on Escape Rooms! This is at the bottom of the page under a line break and above the footer. 
+- **I added a YouTube video** of 'Escape rooms 101' incase users wanted to watch a video format to gain knowledge on Escape Rooms. The video is Scott Nicholson, game design professor at Wilfrid Laurier University in Brantford, Ontario, for an introductory talk on Escape Rooms! This is at the bottom of the page under a line break and above the footer. 
 ![YouTube video](documentation/youtube_video.png)
 
-- On the rooms page the website has a main background image from Gencraft with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms.
+- **On the rooms page the website has a main background image**from Gencraft with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms.
 ![Rooms main background image with text](documentation/rooms_hero_feature.png)
 
-- The main feature on the 'Rooms' page is the four horizontal like cards with a header, picture and information of four indivdual escape rooms. The headers shows the name of the escape room, The images show a represetation of each room and the information provides the back story for each room and then the location of the escape room. 
+- **The main feature on the 'Rooms' page is the four horizontal like cards with a header, picture and information of four indivdual escape rooms.** The headers shows the name of the escape room, The images show a represetation of each room and the information provides the back story for each room and then the location of the escape room. 
 ![Images and info on the best escape rooms](documentation/images_for_rooms.png) 
 
-- Lastly on the 'Contact' page there is a form for users to fill in there 'Name' and 'e-mail' address and to ask a question to be sent to us. (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft and the form is on top of this image. It blends in very nicely. 
+- **Lastly on the 'Contact' page there is a form for users to fill in there 'Name' and 'e-mail' address and to ask a question to be sent to us.** (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft and the form is on top of this image.
 ![Questions Form](documentation/form_feature.png)
 
 ## Future Features
@@ -135,16 +135,16 @@ Technologies used in this website were as follows:
 - I checked that the lock icon was working as a dropdown menu for phones and that all anchor links worked for all screen sizes. This includes the navigation bar with the pages 'HOME' 'ROOMS' & 'CONTACT'. This also includes the footer with all three social media apps.
   
 ### Validation
-**I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found.**
+- I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found.
 ![HTML Validator](documentation/html_validator_home.png) 
 
 ![HTML Validator for rooms page](documentation/html_validator_rooms.png) 
 
 ![HTML Validator for contact page](documentation/html_validator_contact.png) 
 
-**I used the Jigsaw CSS Vlaidator to vlidate my CSS code.***![CSS Validator](documentation/css_validator.png) 
+- I used the Jigsaw CSS Vlaidator to vlidate my CSS code.![CSS Validator](documentation/css_validator.png) 
 
-**I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO I had hoped for a better performance I changed images from jpg to webp and made them smaller I will be working on making the performance better in a future update.** 
+- I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO I had hoped for a better performance I changed images from jpg to webp and made them smaller I will be working on making the performance better in a future update. 
 
 ![LIGHTHOUSE testing for home page](documentation/home_lighthouse.png)
 
