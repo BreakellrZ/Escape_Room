@@ -115,7 +115,12 @@ I used Lighthouse in dev tools to measure the Performance, Accessibility, Best P
 
 
 ## Challenges/Bug fixes
-I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included: <br> 1.**Trailing slashes** 2. **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**  3. **' Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** & 4. '**V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**' <br>
+I had a couple errors and warnings in my HTML code Validator these included a lot of **trailing slashes '/'** that did not need to be in my code - for whatever reason when I got rid of the unneccesay slashes in my code and clicked save the slashes would come back into my code. I also had a couple errors and warnings that needed fixing these included:
+
+1. **'Trailing slashes'** 
+2. **'Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week.'**   
+3. **'Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.'** 
+4. **V=Element legend not allowed as child of element div in this context. (Suppressing further errors from this subtree.)**
 
  I fixed these issues by:
  <br>
