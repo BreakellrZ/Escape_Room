@@ -41,11 +41,11 @@ What's on and off the table? What features and content will be used ?
 - Nav bar -- Burger menu on phone screen sizes. Use a lock instead of traditional burger menu -- Have the lock bounce so users know to click it for a dropdown feature.
 - background Image with a transparent Header and normal sticky footer - both fixed.
 - Information on Escape rooms on the Home page.
-- Footer with Social media links [footer with social media links](documentation/footer.png)
-- YouTube video on Escape Rooms 101 [YouTube video](documentation/youtubevideo.png)
-- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page [Images and info on the best escape rooms](documentation/imagesonrooms.png)
-- Contact section with a form feature to submit questions [Questions Form](documentation/formreadme.png)
-
+- Footer with Social media links.
+- YouTube video on Escape Rooms 101.
+- Images and information on my top picks for Irelands best Escape Rooms on the Rooms page.
+- Contact section with a form feature to submit questions.
+  
 ### Structure plane
 
 Easy structure -- Nav bar with hyperlinks to different pages on website. Scroll down to see main content easy to see layered content displayed in flexbox in columns on each page same layout and structure. It is consistent, predictable, learnable, and visible.
@@ -83,8 +83,13 @@ I decided to then go with the CyberPunk color scheme as it matched my Gencraft a
 
 - Footer feature included icons of 'Facebook', 'Instagram' & 'X'. All three icons are clickable links which will take you to each social media website. The footer was fixed so it is always showing like the header. The footer has a background color of #771c75; with white social media icons soit it stands out. Also inluded is text with the words 'Find us on:' so it lets users know they can find us on each social media. (This website was created for educational purposes there is no actual social media for this website so the links take the user to just the home pages of the three social medias.) [footer with social media links](documentation/footer.png)
 
-- 
+- I added a YouTube video of 'Escape rooms 101' incase users wanted to watch a video format to gain knowledge on Escape Rooms. The video is Scott Nicholson, game design professor at Wilfrid Laurier University in Brantford, Ontario, for an introductory talk on Escape Rooms! This is at the bottom of the page under a line break and above the footer. [YouTube video](documentation/youtubevideo.png)
 
+- On the rooms page the website has a main background image from Gencraft with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms. 
+
+- The main feature on the 'Rooms' page is the four horizontal like cards with a header, picture and info of four indivdual escape rooms. The headers shows the name of the escape room, The images show a represetation of each room and the indo provides the back story for each room and then the location of the escape room. [Images and info on the best escape rooms](documentation/images_for_rooms.png) 
+
+- Lastly on the 'Contact' page there is a form for users to fill in there Name and e-mail address and to ask a question to be sent to us. (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft and the form is on top of this image. It blends in very nicely. [Questions Form](documentation/formreadme.png)
 
 ## Future Features
 
