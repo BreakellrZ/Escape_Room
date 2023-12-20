@@ -91,13 +91,13 @@ I decided to then go with the CyberPunk color scheme as it matched my Gencraft a
 - **I added a YouTube video** of 'Escape rooms 101' incase users wanted to watch a video format to gain knowledge on Escape Rooms. The video is Scott Nicholson, game design professor at Wilfrid Laurier University in Brantford, Ontario, for an introductory talk on Escape Rooms! This is at the bottom of the page under a line break and above the footer. 
 ![YouTube video](documentation/youtube_video.png)
 
-- **On the rooms page the website has a main background image**from Gencraft with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms.
+- **On the rooms page the website has a main background image** from [Gencraft](https://gencraft.com/generate) with text that says 'Reveal the rooms' and a font awesome hand and finger that points downwards to let the users know to look down to unveil the best rooms.
 ![Rooms main background image with text](documentation/rooms_hero_feature.png)
 
 - **The main feature on the 'Rooms' page is the four horizontal like cards with a header, picture and information of four indivdual escape rooms.** The headers shows the name of the escape room, The images show a represetation of each room and the information provides the back story for each room and then the location of the escape room. 
 ![Images and info on the best escape rooms](documentation/images_for_rooms.png) 
 
-- **Lastly on the 'Contact' page there is a form for users to fill in there 'Name' and 'e-mail' address and to ask a question to be sent to us.** (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft and the form is on top of this image.
+- **Lastly on the 'Contact' page there is a form for users to fill in there 'Name' and 'e-mail' address and to ask a question to be sent to us.** (This is for educational purposes when the user clicks send it brings them to a codeinstitute page acknowleging the user that the question has been sent). The form is slightly transparent with a hint of black as the background. The main background is another image from gencraft.
 ![Questions Form](documentation/form_feature.png)
 
 ## Future Features

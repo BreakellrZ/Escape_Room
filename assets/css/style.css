@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     display: flex;
     font-family: "Andika", sans-serif;
@@ -46,8 +47,6 @@ h1 {
     font-weight: bold;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
-
-
 }
 
 #menu {
@@ -62,7 +61,6 @@ h1 {
 
 .active {
     text-decoration: underline;
-
 }
 
 /* Dropdown toggle helped with Love running project */
@@ -81,7 +79,6 @@ nav {
 /* Nav dropdown pseudo class */
 #dropdown:checked~nav {
     display: block;
-
 }
 
 #dropdown {
@@ -105,8 +102,6 @@ main {
     flex-direction: column;
     text-align: center;
     width: 100%;
-
-
 }
 
 #one_zero_one {
@@ -114,12 +109,10 @@ main {
     margin: 15px;
     color: #000000;
     border: double;
-
 }
 
 .escape_info {
     width: 100%;
-
 }
 
 
@@ -147,7 +140,6 @@ h3 {
     padding-bottom: 5px;
     font-size: 23px;
     margin: 10px 20px;
-
 }
 
 h4 {
@@ -157,7 +149,6 @@ h4 {
     padding-top: 20px;
     font-size: 20px;
     margin: 10px 20px;
-
 }
 
 hr {
@@ -168,7 +159,6 @@ hr {
     background-color: black;
     margin: 10px;
     border-radius: 3pc;
-
 }
 
 #what_is_er {
@@ -192,14 +182,11 @@ hr {
 #video {
     padding-bottom: 50px;
     background: url("../images/background.png") no-repeat center center/cover;
-
 }
 
 iframe#youtube {
     margin: 20px;
 }
-
-
 
 /* Hero images */
 #hero {
@@ -212,13 +199,11 @@ iframe#youtube {
     width: 100%;
     height: 100vh;
     background: url("../images/hero3.png") no-repeat center center/cover;
-
 }
 
 #contact_hero {
     background: url("../images/contact.webp") no-repeat center center/cover;
     height: 100vh;
-
 }
 
 /* Rooms */
@@ -279,7 +264,6 @@ img#pub {
 img#vault {
     height: 21.6vh;
     margin: 20px 20px;
-
 }
 
 img#rod {
@@ -344,7 +328,6 @@ footer {
     padding: 5px 10px;
     justify-content: space-evenly;
     bottom: 0;
-
 }
 
 span {
@@ -369,7 +352,6 @@ span {
 @media screen and (min-width: 768px) {
 
     /* Header */
-
     nav {
         display: block;
         position: relative;
@@ -402,11 +384,11 @@ span {
         font-size: 17px;
     }
 
+    /* Home page */
     #basics {
         background-color: black;
         margin: 40px;
         border-radius: 3pc;
-
     }
 
     #what_is_er {
@@ -445,18 +427,15 @@ span {
         display: flex;
         flex-direction: row;
         width: 100%;
-
     }
 
     #basics_info>div,
     #tips_con>div {
         width: 75%;
-
     }
 
     #tips_con>div {
         text-align: center;
-
     }
 
     /* Rooms */
@@ -489,7 +468,6 @@ span {
     img#vault {
         height: 40vh;
         margin: 20px 20px;
-
     }
 
     img#rod {
@@ -500,8 +478,6 @@ span {
     #hero {
         height: 836px;
     }
-
-    /*Form page*/
 
 }
 
@@ -532,7 +508,6 @@ span {
 
     #hero {
         height: 1114px;
-
     }
 
     /* Rooms */
@@ -543,7 +518,6 @@ span {
     div.rooms {
         margin: 100px;
     }
-
 
     img#train {
         height: 40vh;
@@ -582,7 +556,6 @@ span {
         font-size: 25px;
     }
 
-
     /* Footer */
     span {
         font-size: 35px;
@@ -602,8 +575,6 @@ span {
         font-size: 45px;
     }
 
-
-
     a {
         font-size: 25px;
     }
@@ -622,7 +593,6 @@ span {
     h3 {
         font-size: 35px;
     }
-
 
     p {
         font-size: 20px;
@@ -644,10 +614,7 @@ span {
         font-size: 35px;
     }
 
-
-
     /* Footer */
-
     span {
         font-size: 40px;
     }
@@ -752,9 +719,7 @@ span {
         font-size: 55px;
     }
 
-
     /* Footer */
-
     span {
         font-size: 80px;
     }
@@ -762,8 +727,5 @@ span {
     .media {
         font-size: 80px;
     }
-
-
-
 
 }
