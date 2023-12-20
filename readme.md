@@ -79,7 +79,7 @@ I decided to then go with the CyberPunk color scheme as it matched my Gencraft a
 - **I used a dropdown menu** for screen sizes smaller then 768px. I decided to use a lock instead of the normal burger menu as a lock corresponds more to the Escape Room Theme. The lock bounces to tell users that it is clickable.
 ![Navigation Burger icon but instead it is a lock icon for mobile phones ](documentation/burger_dropdown_feature.png)
 
-- **I used [Gencraft wesbite](https://gencraft.com/generate) for a CyberPunk themed background.** I wanted this to stand out and be the first thing users see on the website. 
+- **I used [Gencraft wesbite](https://gencraft.com/generate) for a CyberPunk themed background.** I wanted this to stand out and be the first thing users see on the website and for users to feel immersed into the Escape Room world. 
 ![Main background image with transparent header and normal footer](documentation/home_hero_feature.png)
 
 - **Content of Escape Rooms 101** - This included four card like sections with a header and information on each card. This was to give knowledge and insight into Escape Rooms for the user. 
@@ -166,7 +166,7 @@ I had a couple errors and warnings in my HTML code Validator these included a lo
 1. I found a thread on slack with the same issue and got an answer I went into 'file' then 'preferences' then 'settings' then I turned off 'Format on save' this fixed the problem.
 2. Removing 'required' in my input type="submit" as required does not make sense to be used in a submit type. This fixed the error.
 3. I added a heading with text which ultimately made my 'Rooms' page look nicer and fixed the warning.
-4. I took ou the 'legend' tag as it was not needed and I put in a H2 tag instead - this fixed the error.
+4. I took out the 'legend' tag as it was not needed and I put in a H2 tag instead - this fixed the error.
 
 ## Deployment
 
@@ -179,13 +179,16 @@ I deployed my website early as this is recommended. The steps to deploying a web
    The link to my live site is: [Link to live project here](https://breakellrz.github.io/Escape_Room/)
 
 ## Credit
-Mentor Brian O'Hare
-Gencraft for background images
-Love running for nav bar and burger dropdown
-pexels for images
-font awesome for lock icon
-YouTube BGNlab for video
-Ealu escape rooms
-inside escape rooms
-Great Escape rooms
-Mentor Brian O'Hare
+I would first like to thank my code institute mentor Brian O'Hare for guiding me and providing tips and feedback during this project.
+
+- I would like to credit 'Love Running' provided by Code Institute. Love running provided me with inspiration for both the navigation dropdown menu and the footer on my website.
+  
+- I would like to credit [Gencraft](https://gencraft.com/generate) for providing me with ai generated images which I used for my main background images.
+
+- I would like to credit pexels [Pexels](https://www.pexels.com/) for the images I used for the escape rooms.
+
+- I would like to credit [Fontawesome](https://fontawesome.com/) for the icons used in this project (Facebook, Instagram, X & The lock icon for my dropdown menu).
+
+- I would like to credit YouTube channel [BGNlab](https://www.youtube.com/watch?v=Tqnw7g5iIFQ) for the YouTube video provided in this project. 
+  
+- I would like to credit [Inside Escape Rooms Castlebar](https://www.insidecastlebar.ie/), [Ealu Escape rooms Westport](https://ealuescape.com/en/home) & [Great Escape Rooms Galway](https://greatescaperooms.ie/) for choosing there escape games as the best in Ireland.
