@@ -188,7 +188,7 @@ I would first like to thank my code institute mentor, Brian O'Hare, for guiding 
 
 - I would like to credit pexels [Pexels](https://www.pexels.com/) for the images I used for the escape rooms.
 
-- I would like to credit [Fontawesome](https://fontawesome.com/), for the icons used in this project (Facebook, Instagram, X, & The lock icon for my drop-down menu).
+- I would like to credit [Fontawesome](https://fontawesome.com/), for the icons used in this project (Facebook, Instagram, X, and the lock icon for my drop-down menu).
 
 - I would like to credit YouTube channel [BGNlab](https://www.youtube.com/watch?v=Tqnw7g5iIFQ) for the YouTube video provided in this project. 
   
